@@ -38,7 +38,7 @@ class Maxcdn
 	 */
 	public function __construct($params = array())
 	{
-		$this->ci = get_instance();
+		$this->ci =& get_instance();
 		
 		// This is some fucking ridiculous code in the original example. 
 		// date_default_timezone_set('America/Los_Angeles');
